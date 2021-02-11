@@ -38,3 +38,4 @@ and once accepted will be available in the 'store'.
 from the store, logged in users will be able to set up your integration using your setup route, 
 which will be accesible at https://xxxxxxxxx.com/plugin/your-integration-name/setup
 and the integration will the be available to the user at https://xxxxxxx.com/plugin/your-integration-name
+
