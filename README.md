@@ -26,7 +26,7 @@ Please make sure it contains at least the following items:
 - the steps required in the setup process
 
 ## Submitting your integration
-** !! not done yet !! **
+!! not done yet !!
 
 Go to https://xxxxxxxxx.com/submit and upload a zip file that fulfills the requirements.
 Your integration will then be submited for review by our team, 
