@@ -26,8 +26,11 @@ Please make sure it contains at least the following items:
 - the steps required in the setup process
 
 ## Submitting your integration
-!! not done yet !!
 
+### For now
+Put your trello card in the done column, and link the github repository the integration is in.
+
+### Future
 Go to https://xxxxxxxxx.com/submit and upload a zip file that fulfills the requirements.
 Your integration will then be submited for review by our team, 
 and once accepted will be available in the 'store'.
