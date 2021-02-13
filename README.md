@@ -17,13 +17,30 @@ The supplied server.js file can be used for testing, and serves as an example of
 We will parse the files in the routes directory, and will only parse the routes from them.
 Take a look in the server.js file for an example of how your routes will be loaded
 
+manually loading your routes with 'router.use' or 'app.use' is not neccesary, as this will all be done for you.
+
+### /setup
+Your routes should contain at least a route pointing to /setup. 
+
+This route has to support a GET call, and should give the user a way to input settings for your integration.
+
+To save this config, a route at https://xxxxxxxxx.com/plugin/your-inegration-name/setup will then be available. 
+Make a POST call to this route of which the body contains a json object.
+
+This json object will then be set on the env object when a call to your integration is made,
+so you can use it in your routes.
+
+An exaple usage of this would be to set authentication information for a user, as this config is 
+user specific.
+
 ## Document your integration
 Supply a README.md file that will tell us everything about your integration
 
 Please make sure it contains at least the following items:
 - a general description of how your integration works / what it does
 - an overview of all the routes in your integration
-- the steps required in the setup process
+- an example of the output for each route of your integration
+- the steps required by the user in the setup process
 
 ## Submitting your integration
 
