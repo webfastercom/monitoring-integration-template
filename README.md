@@ -15,7 +15,11 @@ The supplied server.js file can be used for testing, and serves as an example of
 
 ## routes
 We will parse the files in the routes directory, and will only parse the routes from them.
-Take a look in the server.js file for an example of how your routes will be loaded
+Take a look in the server.js file for an example of how your routes will be loaded 
+(in theory, in practise this will be done dynamically)
+
+To make sure we are able to parse your route correctly make sure to only use get routers and include the end route comment
+(see the example route file)
 
 manually loading your routes with 'router.use' or 'app.use' is not neccesary, as this will all be done for you.
 

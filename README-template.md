@@ -1,6 +1,8 @@
 ## Api Name
 Description of the api
 
+link naar docs van de api
+
 ## Setup
 ### /setup
 Explain what happens at the setup endpoint
