@@ -35,6 +35,7 @@ user specific.
 
 ## Document your integration
 Supply a README.md file that will tell us everything about your integration
+You can use the supplied template README as a starting point.
 
 Please make sure it contains at least the following items:
 - a general description of how your integration works / what it does
